@@ -1,4 +1,4 @@
-# Digital-tempreture-sensor-with-PIC16F877-and-LM35-MCU
+# Digital-Thermometer-using-PIC16F877-and-LM35
 * Owner: 
   Abhiyanta Community
 * Team Members:
