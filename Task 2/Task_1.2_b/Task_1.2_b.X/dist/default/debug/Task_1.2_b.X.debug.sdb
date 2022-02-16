@@ -1,0 +1,80 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"8 C:\Users\Lenovo\Desktop\Task_1.2_b\Task_1.2_b.X\Task_b.c
+[v _Count Count `II(v  1 e 1 0 ]
+"17
+[v _Timer1Delay Timer1Delay `(v  1 e 1 0 ]
+"32
+[v _main main `(v  1 e 1 0 ]
+"60 C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"217
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"403
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"635
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"642
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+"649
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"1251
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1371
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1557
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2363
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2423
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2567
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2570
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2573
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"2672
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"2675
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"2684
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2687
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"5 C:\Users\Lenovo\Desktop\Task_1.2_b\Task_1.2_b.X\Task_b.c
+[v _count count `i  1 e 2 0 ]
+"32
+[v _main main `(v  1 e 1 0 ]
+{
+"44
+[v main@seg seg `[10]i  1 a 20 0 ]
+"34
+[v main@i i `i  1 a 2 20 ]
+"43
+[v main@F834 F834 `[10]i  1 s 20 F834 ]
+"121
+} 0
+"17
+[v _Timer1Delay Timer1Delay `(v  1 e 1 0 ]
+{
+"23
+[v Timer1Delay@i i `i  1 a 2 2 ]
+"30
+} 0
+"8
+[v _Count Count `II(v  1 e 1 0 ]
+{
+"15
+} 0

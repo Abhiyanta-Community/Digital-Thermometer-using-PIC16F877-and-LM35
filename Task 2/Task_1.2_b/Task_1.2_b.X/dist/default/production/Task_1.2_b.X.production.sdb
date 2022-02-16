@@ -1,0 +1,137 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 0 ]
+"477 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"9 C:\Users\Lenovo\Desktop\Task_1.2_b\Task_1.2_b.X\Task_b.c
+[v _Count Count `II(v  1 e 1 0 ]
+"18
+[v _Timer1Delay Timer1Delay `(v  1 e 1 0 ]
+"33
+[v _main main `(v  1 e 1 0 ]
+"60 C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"217
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"403
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"635
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"642
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+"649
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"1251
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1371
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1557
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2363
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2423
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2567
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2570
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2573
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"2672
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"2675
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"2684
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2687
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"358 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"6 C:\Users\Lenovo\Desktop\Task_1.2_b\Task_1.2_b.X\Task_b.c
+[v _count count `i  1 e 2 0 ]
+"33
+[v _main main `(v  1 e 1 0 ]
+{
+"45
+[v main@seg seg `[10]i  1 a 20 20 ]
+"35
+[v main@i i `i  1 a 2 40 ]
+"44
+[v main@F897 F897 `[10]i  1 s 20 F897 ]
+"123
+} 0
+"477 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+[v printf@f f `*.24DCuc  1 a 1 wreg ]
+"545
+[v printf@val val `ui  1 a 2 13 ]
+"512
+[v printf@c c `uc  1 a 1 15 ]
+"521
+[v printf@prec prec `c  1 a 1 11 ]
+"525
+[v printf@flag flag `uc  1 a 1 10 ]
+"479
+[v printf@ap ap `[1]*.4v  1 a 1 9 ]
+"477
+[v printf@f f `*.24DCuc  1 a 1 wreg ]
+"550
+[v printf@f f `*.24DCuc  1 a 1 12 ]
+"1567
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 7 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 9 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 4 ]
+"30
+} 0
+"18 C:\Users\Lenovo\Desktop\Task_1.2_b\Task_1.2_b.X\Task_b.c
+[v _Timer1Delay Timer1Delay `(v  1 e 1 0 ]
+{
+"24
+[v Timer1Delay@j j `i  1 a 2 2 ]
+"31
+} 0
+"9
+[v _Count Count `II(v  1 e 1 0 ]
+{
+"16
+} 0
