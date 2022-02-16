@@ -1,0 +1,24 @@
+.
+├── readme.md
+├── Task 1
+│   ├── Task_1.1_a 
+│   │   ├── Task_1.1_a.pdsprj
+│   │   └── Task_1.1_a.X
+│   └── Task_1.1_b
+│       ├── Task_1.1_b.pdsprj
+│       └── Task_1.1_b.X
+├── Task 2
+│   ├── Task_1.2_a
+│   │   ├── Task_1.2_a.pdsprj
+│   │   └── Task_1.2_a.X
+│   └── Task_1.2_b
+│       ├── Task_1.2_b.pdsprj
+│       └── Task_1.2_b.X
+└── Task 3
+    ├── Task_1.3_a
+    │   ├── Task_1.3_a.DSN
+    │   ├── Task_1.3_a.pdsprj
+    │   └── Task_1.3_a.X
+    └── Task_1.3_b
+        ├── Task_1.3_b.pdsprj
+        └── Task_1.3_b.X
