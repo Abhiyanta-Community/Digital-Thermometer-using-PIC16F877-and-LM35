@@ -1,0 +1,364 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"1371 C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1371: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"217
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 217: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"195 C:\Program Files\Microchip\xc8\v2.31\pic\include\c90\stdio.h
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"55 C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"62
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 62: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"69
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 69: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"76
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 76: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"162
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 162: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"169
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 169: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"219
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 219: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"281
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 281: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"343
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 343: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"405
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 405: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"437
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 437: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"457
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 457: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"535
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 535: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"597
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 597: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"630
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 630: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"637
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 637: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"644
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 644: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"651
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 651: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"728
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 728: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"735
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 735: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"806
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 806: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"813
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 813: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"883
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 883: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"890
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 890: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"897
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 897: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"904
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 904: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"962
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 962: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1057
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1057: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1064
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1064: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1071
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1071: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1078
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1078: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1085
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1085: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1092
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1092: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1150
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1150: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1157
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1157: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1253
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1253: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1323
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1323: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1373
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1373: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1435
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1435: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1497
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1497: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1559
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1559: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1616
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1616: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1678
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1678: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1711
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1711: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1745
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1745: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1807
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1807: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1814
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1814: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1821
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1821: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"1990
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 1990: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2071
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2071: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2078
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2078: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2085
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2085: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2138
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2138: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2145
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2145: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2152
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2152: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2159
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2159: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2166
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2166: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2211
+[; ;C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h: 2211: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"5 Task_b.c
+[; ;Task_b.c: 5: int main()
+[v _main `(i ~T0 @X0 1 ef ]
+"6
+[; ;Task_b.c: 6: {
+{
+[e :U _main ]
+[f ]
+"7
+[; ;Task_b.c: 7:     int n;
+[v _n `i ~T0 @X0 1 a ]
+[v F882 `i ~T0 @X0 -> 10 `i s ]
+[i F882
+:U ..
+"8
+[; ;Task_b.c: 8:     int seg[10]={0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F};
+-> 63 `i
+-> 6 `i
+-> 91 `i
+-> 79 `i
+-> 102 `i
+-> 109 `i
+-> 125 `i
+-> 7 `i
+-> 127 `i
+-> 111 `i
+..
+]
+[v _seg `i ~T0 @X0 -> 10 `i a ]
+[e = _seg F882 ]
+"10
+[; ;Task_b.c: 10:     TRISB=0X00;
+[e = _TRISB -> -> 0 `i `uc ]
+"11
+[; ;Task_b.c: 11:     PORTB=0X00;
+[e = _PORTB -> -> 0 `i `uc ]
+"13
+[; ;Task_b.c: 13:     while(1)
+[e :U 93 ]
+"14
+[; ;Task_b.c: 14:     {
+{
+"16
+[; ;Task_b.c: 16:     n=5;
+[e = _n -> 5 `i ]
+"18
+[; ;Task_b.c: 18:     switch (n)
+[e $U 96  ]
+"19
+[; ;Task_b.c: 19:         {
+{
+"20
+[; ;Task_b.c: 20:         case 0:
+[e :U 97 ]
+"21
+[; ;Task_b.c: 21:             PORTB = seg[0];
+[e = _PORTB -> *U + &U _seg * -> -> -> 0 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"22
+[; ;Task_b.c: 22:             break;
+[e $U 95  ]
+"23
+[; ;Task_b.c: 23:         case 1:
+[e :U 98 ]
+"24
+[; ;Task_b.c: 24:             PORTB = seg[1];
+[e = _PORTB -> *U + &U _seg * -> -> -> 1 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"25
+[; ;Task_b.c: 25:             break;
+[e $U 95  ]
+"26
+[; ;Task_b.c: 26:         case 2:
+[e :U 99 ]
+"27
+[; ;Task_b.c: 27:             PORTB = seg[2];
+[e = _PORTB -> *U + &U _seg * -> -> -> 2 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"28
+[; ;Task_b.c: 28:             break;
+[e $U 95  ]
+"29
+[; ;Task_b.c: 29:         case 3:
+[e :U 100 ]
+"30
+[; ;Task_b.c: 30:             PORTB = seg[3];
+[e = _PORTB -> *U + &U _seg * -> -> -> 3 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"31
+[; ;Task_b.c: 31:             break;
+[e $U 95  ]
+"32
+[; ;Task_b.c: 32:         case 4:
+[e :U 101 ]
+"33
+[; ;Task_b.c: 33:             PORTB = seg[4];
+[e = _PORTB -> *U + &U _seg * -> -> -> 4 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"34
+[; ;Task_b.c: 34:             break;
+[e $U 95  ]
+"35
+[; ;Task_b.c: 35:         case 5:
+[e :U 102 ]
+"36
+[; ;Task_b.c: 36:             PORTB = seg[5];
+[e = _PORTB -> *U + &U _seg * -> -> -> 5 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"37
+[; ;Task_b.c: 37:             break;
+[e $U 95  ]
+"38
+[; ;Task_b.c: 38:         case 6:
+[e :U 103 ]
+"39
+[; ;Task_b.c: 39:             PORTB = seg[6];
+[e = _PORTB -> *U + &U _seg * -> -> -> 6 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"40
+[; ;Task_b.c: 40:             break;
+[e $U 95  ]
+"41
+[; ;Task_b.c: 41:         case 7:
+[e :U 104 ]
+"42
+[; ;Task_b.c: 42:             PORTB = seg[7];
+[e = _PORTB -> *U + &U _seg * -> -> -> 7 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"43
+[; ;Task_b.c: 43:             break;
+[e $U 95  ]
+"44
+[; ;Task_b.c: 44:         case 8:
+[e :U 105 ]
+"45
+[; ;Task_b.c: 45:             PORTB = seg[8];
+[e = _PORTB -> *U + &U _seg * -> -> -> 8 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"46
+[; ;Task_b.c: 46:             break;
+[e $U 95  ]
+"47
+[; ;Task_b.c: 47:         case 9:
+[e :U 106 ]
+"48
+[; ;Task_b.c: 48:             PORTB = seg[9];
+[e = _PORTB -> *U + &U _seg * -> -> -> 9 `i `ui `ux -> -> # *U &U _seg `ui `ux `uc ]
+"49
+[; ;Task_b.c: 49:             break;
+[e $U 95  ]
+"50
+[; ;Task_b.c: 50:         default:
+[e :U 107 ]
+"51
+[; ;Task_b.c: 51:             printf("Invalid entry!");
+[e ( _printf :s 1C ]
+"52
+[; ;Task_b.c: 52:             break;
+[e $U 95  ]
+"53
+[; ;Task_b.c: 53:         }
+}
+[e $U 95  ]
+[e :U 96 ]
+[e [\ _n , $ -> 0 `i 97
+ , $ -> 1 `i 98
+ , $ -> 2 `i 99
+ , $ -> 3 `i 100
+ , $ -> 4 `i 101
+ , $ -> 5 `i 102
+ , $ -> 6 `i 103
+ , $ -> 7 `i 104
+ , $ -> 8 `i 105
+ , $ -> 9 `i 106
+ 107 ]
+[e :U 95 ]
+"54
+[; ;Task_b.c: 54:     }
+}
+[e :U 92 ]
+[e $U 93  ]
+[e :U 94 ]
+"55
+[; ;Task_b.c: 55: }
+[e :UE 91 ]
+}
+[p f _printf 8388608 ]
+[a 1C 73 110 118 97 108 105 100 32 101 110 116 114 121 33 0 ]
