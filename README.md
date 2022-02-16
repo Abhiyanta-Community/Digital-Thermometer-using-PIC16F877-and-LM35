@@ -1,0 +1,2 @@
+# Digital-tempreture-sensor-with-PIC16F877-and-LM35-MCU
+The task is about interfacing a Digital Temperature Sensor(LM35) with a PIC (PIC16F877) microcontroller. These types of temperature sensors can be used for various purposes like measuring temperature in boilers, measuring and maintaining ambient room temperature etc. In this task we will learn more about the I/O ports, registers, timers, ADC available within PIC
